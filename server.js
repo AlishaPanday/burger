@@ -1,4 +1,7 @@
 const express = require('express');
+const exphbs = require('express-handlebars');
+//import routes from the controller folder  and give the server to access to them
+const routes = require('./controllers/burgersController.js')
 
 const PORT = process.env.PORT || 3030;
 
@@ -11,9 +14,13 @@ app.use(express.static('public'));
 app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 
-//import routes from the controller folder  and give the server to access to them
-const routes = require('./controllers/burgersController.js')
+//use routes
 app.use(routes);
+
+//Handlebars.
+app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
+app.set('view engine', 'handlebars');
+
 
 // Start our server so that it can begin listening to client requests.
 app.listen(PORT, () =>
