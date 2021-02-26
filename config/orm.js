@@ -10,7 +10,7 @@ const printQuestionMarks = (num) => {
   }
 
   return arr.toString();
-}; 
+};
 
 // Helper function to convert object key/value pairs to SQL syntax
 const objToSql = (ob) => {
@@ -99,5 +99,5 @@ const orm = {
   },
 };
 
-// Export the orm object for the model (burger.js).
+// Export the orm object for the model (cat.js).
 module.exports = orm;
