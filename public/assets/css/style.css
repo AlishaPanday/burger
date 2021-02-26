@@ -1,0 +1,72 @@
+body {
+	background-image: url("../img/burger-cover.jpg");
+  background-size: cover;
+  z-index: -1;
+
+}
+ img {
+
+    width: 380px; /* Set a small width */
+    margin-bottom:5%;
+
+  }
+  .text-muted {
+    color: white i !important;
+}
+
+  div.card-deck{
+    background-color: beige;
+  }
+
+  button.delete-burger{
+    background-color: #dc3545;
+    color:white;;
+    border-radius: 20px;
+  }
+
+  button.change-state{
+    background-color: #28a745;
+    color:white;
+    margin-bottom: 10px;
+    border-radius: 25px;
+  }
+  button{
+    background-color: #ffa500;
+    color:white;
+    border-radius: 20px !important;
+
+  }
+  .eat {
+    text-align: center;
+    margin-bottom:10px;
+    color:#ffa500  !important;
+    font-size: bold;;
+  }
+
+form { 
+    margin-top:10px !important;
+    text-align: left;
+    color:white !important;
+    position:relative;
+    margin-bottom: 10%;;
+}
+
+.form-group{
+  margin-bottom:40%;
+}
+ #bu {
+    border-radius: 20px;
+ }
+ h2{
+  color:white !important;
+ }
+
+ li {
+   color:white !important;
+ }
+ .card-body{
+  background: rgb(74,37,0);
+  background: linear-gradient(90deg, rgba(74,37,0,1) 0%, rgba(232,145,66,0.9829308432357318) 60%);
+   box-shadow: 5px 10px 8px #888888;
+
+ }
