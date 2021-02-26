@@ -1,4 +1,10 @@
-USE burgers_db;
-INSERT INTO burgers (burger_name, devoured) VALUES ('big mac', false);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Spicy Chicken', false);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Fish Burger', false);
+Use burger_db;
+
+INSERT INTO burgers (name) VALUES ('chicken burger');
+INSERT INTO burgers (name) VALUES ('ham burger');
+INSERT INTO burgers (name, eaten) VALUES ('Fish burger', true);
+INSERT INTO burgers (name, eaten) VALUES ('Steak burger', true);
+INSERT INTO burgers (name, eaten) VALUES ('Bacon Egg burger', true);
+INSERT INTO burgers (name) VALUES ('Schnitzel Burger');
+
+SELECT * from burgers;
