@@ -15,6 +15,7 @@ This is Burger logger app made with MySQL, Node, Express, Handlebars and a  ORM.
 * Heroku
 
 ## Deployed Heroku Link  
+https://burger-logger-ap.herokuapp.com/ <br  />
 
 ## GitHub repository Link
 https://github.com/AlishaPanday/burger  <br  />
